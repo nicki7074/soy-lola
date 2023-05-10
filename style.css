@@ -1,31 +1,30 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 22px;
+  background-image: url('corazon.png');
+  background-size: cover;
+   background-repeat: no-repeat;
+   background-color: #f24b6a; /* Tonalidad roja */
   }
 }
 
+.header{
+  border: solid
+}
 
-header {
-    display: flex;
-    justify-content: center;
+  
+.contenedorimagen{
+  display: flex;
+  justify-content: center;
     align-items: center;
-    height: 200px;
-    
-  }
-  
-  header img {
-    max-height: 100%;
-    max-width: 100%;
-  }
+}
+
+.imagen1{
+  justify-content: center;
+    align-items: center;
+}
   
 
-body {
-    background-image: url('corazon.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #f24b6a; /* Tonalidad roja */
-    
-  }
   
   nav {
     background-color: #f4a7b7;
@@ -68,12 +67,12 @@ body {
   .caja-principal {
     display: flex; /* muestra las subcajas en una línea horizontal */
     justify-content: space-between; /* separa las subcajas con espacios iguales entre ellas */
-    border: 1px solid black; /* agrega un borde negro de 1px a la caja principal */
+   
     padding: 10px; /* agrega un padding de 10px alrededor de la caja principal */
   }
   
   .subcaja {
-    border: 1px solid black; /* agrega un borde negro de 1px a cada subcaja */
+    border: 1px solid rgb(223, 52, 52); /* agrega un borde negro de 1px a cada subcaja */
     padding: 10px; /* agrega un padding de 10px alrededor de cada subcaja */
   }
 
@@ -82,7 +81,9 @@ body {
     background-color: rgb(88, 125, 146);
     padding: 8px;
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    flex-wrap: wrap; /* Para que los elementos se ajusten al ancho del contenedor */
+    flex-direction: column;
     text-align: center; /* Centrar el texto */
   }
+
+  
