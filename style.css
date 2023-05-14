@@ -3,87 +3,99 @@ body {
   font-size: 22px;
   background-image: url('corazon.png');
   background-size: cover;
-   background-repeat: no-repeat;
-   background-color: #f24b6a; /* Tonalidad roja */
-  }
+  background-repeat: no-repeat;
+  background-color: #f24b6a; /* Tonalidad roja */
 }
 
-.header{
-  border: solid
-}
 
-  
 .contenedorimagen{
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .imagen1{
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
-  
 
-  
-  nav {
-    background-color: #f4a7b7;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  
-  nav a:hover {
-    background-color: #d9a7c7;
-  }
-  
-  .imagen {width: 200px;
+nav {
+  background-color: #f4a7b7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #d9a7c7;
+}
+
+.imagen {
+  width: 200px;
   height: 200px;
-  }
+  border-radius: 5px;
+}
 
-  .caja-principal {
-    display: flex; /* muestra las subcajas en una línea horizontal */
-    justify-content: space-between; /* separa las subcajas con espacios iguales entre ellas */
-   
-    padding: 10px; /* agrega un padding de 10px alrededor de la caja principal */
-  }
+.caja-principal {
+  display: flex; /* muestra las subcajas en una línea horizontal */
+  justify-content: space-between; /* separa las subcajas con espacios iguales entre ellas */
+  padding: 10px; /* agrega un padding de 10px alrededor de la caja principal */
+}
+
+.subcaja {
+  border: 2px solid rgb(223, 52, 52); /* agrega un borde negro de 1px a cada subcaja */
+  padding: 10px; /* agrega un padding de 10px alrededor de cada subcaja */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   
-  .subcaja {
-    border: 1px solid rgb(223, 52, 52); /* agrega un borde negro de 1px a cada subcaja */
-    padding: 10px; /* agrega un padding de 10px alrededor de cada subcaja */
-  }
+}
 
-  .footer-content {
-    border: 1px solid rgb(88, 125, 146);
-    background-color: rgb(88, 125, 146);
-    padding: 8px;
-    display: flex;
-    flex-wrap: wrap; /* Para que los elementos se ajusten al ancho del contenedor */
-    flex-direction: column;
-    text-align: center; /* Centrar el texto */
-  }
+.texto{
+  color: #172c3c;
+}
 
-  
+.maps{
+  padding-top: 150px;
+}
+
+.carrusel1{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.footer-content {
+  border: 1px solid rgb(88, 125, 146);
+  background-color: rgb(88, 125, 146);
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap; /* Para que los elementos se ajusten al ancho del contenedor */
+  flex-direction: column;
+  text-align: center; /* Centrar el texto */
+}
